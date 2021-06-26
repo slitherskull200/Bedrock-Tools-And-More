@@ -1,0 +1,156 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CompressedCobblestone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_cobblestone"
+    },
+    {
+      "name": "Bedrock",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock"
+    },
+    {
+      "name": "CompressedCobble",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compressed_cobble"
+    },
+    {
+      "name": "BedrocktoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrocktools_pickaxe_recipe"
+    },
+    {
+      "name": "BedrocktoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrocktools_axe_recipe"
+    },
+    {
+      "name": "BedrocktoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrocktools_sword_recipe"
+    },
+    {
+      "name": "BedrocktoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrocktools_shovel_recipe"
+    },
+    {
+      "name": "BedrocktoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrocktools_hoe_recipe"
+    },
+    {
+      "name": "BedrockShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_shovel"
+    },
+    {
+      "name": "BedrockHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_hoe"
+    },
+    {
+      "name": "BedrockPickaxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_pickaxe"
+    },
+    {
+      "name": "BedrockAxe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_axe"
+    },
+    {
+      "name": "BedrockSword",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_sword"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.randommod.bedrock_hoe": "Bedrocktools Hoe",
+      "item.randommod.bedrock_axe": "Bedrocktools Axe",
+      "item.randommod.bedrock_sword": "Bedrocktools Sword",
+      "item.randommod.bedrock_pickaxe": "Bedrock Pickaxe",
+      "item.randommod.bedrock_shovel": "Bedrock Shovel",
+      "block.randommod.compressed_cobblestone": "Compressed Cobblestone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "randommod",
+    "modName": "RandomMod",
+    "version": "1.0.0",
+    "author": "jayden, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.randommod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

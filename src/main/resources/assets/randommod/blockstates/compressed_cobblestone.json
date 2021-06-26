@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "randommod:block/compressed_cobblestone"
+    }
+  }
+}

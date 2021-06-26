@@ -1,0 +1,42 @@
+{
+  "group": "randommod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "1": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "2": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "3": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "4": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "5": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "6": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "7": {
+      "item": "randommod:compressed_cobblestone"
+    },
+    "8": {
+      "item": "randommod:compressed_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:bedrock",
+    "count": 1
+  }
+}
