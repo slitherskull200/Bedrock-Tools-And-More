@@ -117,6 +117,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bedrock_sword"
+    },
+    {
+      "name": "BedrockArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "BedrockArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_armor_armor_body_recipe"
+    },
+    {
+      "name": "BedrockArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "BedrockArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_armor_armor_boots_recipe"
+    },
+    {
+      "name": "BedrockArmor",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -124,10 +175,14 @@
   "language_map": {
     "en_us": {
       "item.randommod.bedrock_hoe": "Bedrocktools Hoe",
+      "item.randommod.bedrock_shovel": "Bedrock Shovel",
+      "item.randommod.bedrock_armor_helmet": "Bedrock Helmet",
       "item.randommod.bedrock_axe": "Bedrocktools Axe",
+      "item.randommod.bedrock_armor_boots": "Bedrock Boots",
       "item.randommod.bedrock_sword": "Bedrocktools Sword",
       "item.randommod.bedrock_pickaxe": "Bedrock Pickaxe",
-      "item.randommod.bedrock_shovel": "Bedrock Shovel",
+      "item.randommod.bedrock_armor_leggings": "Bedrock Leggings",
+      "item.randommod.bedrock_armor_chestplate": "Bedrock Chestplate",
       "block.randommod.compressed_cobblestone": "Compressed Cobblestone"
     }
   },

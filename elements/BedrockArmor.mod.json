@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "bedrockhelmet",
+    "enableBody": true,
+    "textureBody": "bedrockchestplate",
+    "enableLeggings": true,
+    "textureLeggings": "bedrockleggings",
+    "enableBoots": true,
+    "textureBoots": "bedrockboots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "bedrockarmortexture",
+    "helmetName": "Bedrock Helmet",
+    "bodyName": "Bedrock Chestplate",
+    "leggingsName": "Bedrock Leggings",
+    "bootsName": "Bedrock Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 12,
+    "damageValueBody": 14,
+    "damageValueLeggings": 13,
+    "damageValueBoots": 11,
+    "enchantability": 47,
+    "toughness": 4.0,
+    "knockbackResistance": 4.0,
+    "equipSound": {
+      "value": "block.anvil.use"
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ]
+  }
+}
