@@ -1,11 +1,11 @@
 {
-  "item.randommod.bedrock_hoe": "Bedrocktools Hoe",
-  "item.randommod.bedrock_shovel": "Bedrock Shovel",
   "item.randommod.bedrock_armor_helmet": "Bedrock Helmet",
-  "item.randommod.bedrock_axe": "Bedrocktools Axe",
+  "item.randommod.bedrock_hoe": "Bedrock Hoe",
+  "item.randommod.bedrock_axe": "Bedrock Axe",
   "item.randommod.bedrock_armor_boots": "Bedrock Boots",
-  "item.randommod.bedrock_sword": "Bedrocktools Sword",
+  "item.randommod.bedrock_sword": "Bedrock Sword",
   "item.randommod.bedrock_pickaxe": "Bedrock Pickaxe",
+  "item.randommod.bedrock_shovel": "Bedrock Shovel",
   "item.randommod.bedrock_armor_leggings": "Bedrock Leggings",
   "item.randommod.bedrock_armor_chestplate": "Bedrock Chestplate",
   "block.randommod.compressed_cobblestone": "Compressed Cobblestone"

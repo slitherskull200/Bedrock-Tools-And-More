@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "bedrockarmortexture",
+    "armorTextureFile": "netherite_",
     "helmetName": "Bedrock Helmet",
     "bodyName": "Bedrock Chestplate",
     "leggingsName": "Bedrock Leggings",
