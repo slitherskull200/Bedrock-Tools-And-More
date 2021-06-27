@@ -19,26 +19,26 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
+      },
+      {
+        "value": "Blocks.BEDROCK"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BedrockArmorArmor.boots"
+      "value": "CUSTOM:BedrockArmor.boots"
     },
     "name": "bedrock_armor_armor_boots_recipe",
     "namespace": "mod"

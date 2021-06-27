@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       },
       {
-        "value": ""
+        "value": "Blocks.BEDROCK"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BedrockArmorArmor.body"
+      "value": "CUSTOM:BedrockArmor.body"
     },
     "name": "bedrock_armor_armor_body_recipe",
     "namespace": "mod"

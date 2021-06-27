@@ -1,0 +1,36 @@
+{
+  "group": "randommod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bedrock"
+    },
+    "1": {
+      "item": "minecraft:bedrock"
+    },
+    "2": {
+      "item": "minecraft:bedrock"
+    },
+    "3": {
+      "item": "minecraft:bedrock"
+    },
+    "5": {
+      "item": "minecraft:bedrock"
+    },
+    "6": {
+      "item": "minecraft:bedrock"
+    },
+    "8": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "result": {
+    "item": "randommod:bedrock_armor_leggings",
+    "count": 1
+  }
+}
