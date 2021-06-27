@@ -11,7 +11,7 @@
       "value": "CUSTOM:BedrockItems"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 100,
+    "harvestLevel": 5,
     "efficiency": 20.0,
     "attackSpeed": 1.6,
     "enchantability": 25,

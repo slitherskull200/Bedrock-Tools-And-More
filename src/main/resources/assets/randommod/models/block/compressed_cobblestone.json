@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "randommod:blocks/bedrockcompressed",
-    "particle": "randommod:blocks/bedrockcompressed"
+    "all": "randommod:blocks/compcobble",
+    "particle": "randommod:blocks/compcobble"
   }
 }

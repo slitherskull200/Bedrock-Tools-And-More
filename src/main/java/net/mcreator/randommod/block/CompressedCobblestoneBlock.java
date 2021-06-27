@@ -28,6 +28,7 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
+import net.minecraft.util.Direction;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -40,6 +41,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -75,9 +77,14 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 9999999f).setLightLevel(s -> 5)
-					.harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.4f).jumpFactor(1.1f).notSolid()
+					.harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool().slipperiness(5f).speedFactor(2f).jumpFactor(2f).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("compressed_cobblestone");
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		public boolean isSideInvisible(BlockState state, BlockState adjacentBlockState, Direction side) {
+			return adjacentBlockState.getBlock() == this ? true : super.isSideInvisible(state, adjacentBlockState, side);
 		}
 
 		@Override
@@ -127,6 +134,14 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
+			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE.getDefaultState().getBlock())
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -152,8 +167,8 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 26)).range(30)
-					.square().func_242731_b(4);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(40)
+					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("compressed_cobblestone"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("randommod:compressed_cobblestone"), configuredFeature);
 		}

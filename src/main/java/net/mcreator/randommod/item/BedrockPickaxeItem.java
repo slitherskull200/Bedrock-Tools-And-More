@@ -37,7 +37,7 @@ public class BedrockPickaxeItem extends RandommodModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 100;
+				return 5;
 			}
 
 			public int getEnchantability() {

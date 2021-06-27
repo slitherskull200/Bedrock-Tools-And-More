@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "bedrockcompressed",
+    "texture": "compcobble",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -18,7 +18,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
@@ -66,9 +66,9 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
-    "speedFactor": 1.4,
-    "jumpFactor": 1.1,
+    "slipperiness": 5.0,
+    "speedFactor": 2.0,
+    "jumpFactor": 2.0,
     "reactionToPushing": "BLOCK",
     "isNotColidable": false,
     "soundOnStep": {
@@ -76,7 +76,7 @@
     },
     "luminance": 5,
     "unbreakable": false,
-    "breakHarvestLevel": 5,
+    "breakHarvestLevel": 3,
     "spawnParticles": true,
     "particleToSpawn": {
       "value": "CRIT"
@@ -105,10 +105,23 @@
       "Surface"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 26,
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.STONE#5"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      }
+    ],
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 30
+    "maxGenerateHeight": 40
   }
 }
