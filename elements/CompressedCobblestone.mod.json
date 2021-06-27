@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:BedrockItems"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -76,7 +76,7 @@
     },
     "luminance": 5,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 100,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

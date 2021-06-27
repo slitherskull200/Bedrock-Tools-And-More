@@ -8,14 +8,14 @@
     "name": "Bedrock Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:BedrockItems"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
     "efficiency": 6.0,
-    "attackSpeed": 3.0,
+    "attackSpeed": 1.7,
     "enchantability": 300,
-    "damageVsEntity": 120.0,
+    "damageVsEntity": 50.0,
     "usageCount": 10000,
     "blocksAffected": [],
     "hasGlow": false,

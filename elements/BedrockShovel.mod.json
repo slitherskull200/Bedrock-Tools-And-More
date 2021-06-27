@@ -8,7 +8,7 @@
     "name": "Bedrock Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BedrockItems"
     },
     "toolType": "Spade",
     "harvestLevel": 2,

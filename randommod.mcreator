@@ -4,7 +4,7 @@
     {
       "name": "CompressedCobblestone",
       "type": "block",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Bedrock",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "CompressedCobble",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "BedrocktoolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "BedrocktoolsAxeRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "BedrocktoolsSwordRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "BedrocktoolsShovelRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "BedrocktoolsHoeRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "BedrockShovel",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "BedrockHoe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "BedrockPickaxe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "BedrockAxe",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "BedrockSword",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "BedrockArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "BedrockArmorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "BedrockArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "BedrockArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "BedrockArmor",
       "type": "armor",
-      "sortid": 23,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -168,6 +168,15 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "BedrockItems",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bedrock_items"
     }
   ],
   "variable_elements": [],
@@ -183,7 +192,8 @@
       "item.randommod.bedrock_shovel": "Bedrock Shovel",
       "item.randommod.bedrock_armor_leggings": "Bedrock Leggings",
       "item.randommod.bedrock_armor_chestplate": "Bedrock Chestplate",
-      "block.randommod.compressed_cobblestone": "Compressed Cobblestone"
+      "block.randommod.compressed_cobblestone": "Compressed Cobblestone",
+      "itemGroup.tabbedrock_items": "Bedrock Items"
     }
   },
   "foldersRoot": {

@@ -8,5 +8,6 @@
   "item.randommod.bedrock_shovel": "Bedrock Shovel",
   "item.randommod.bedrock_armor_leggings": "Bedrock Leggings",
   "item.randommod.bedrock_armor_chestplate": "Bedrock Chestplate",
-  "block.randommod.compressed_cobblestone": "Compressed Cobblestone"
+  "block.randommod.compressed_cobblestone": "Compressed Cobblestone",
+  "itemGroup.tabbedrock_items": "Bedrock Items"
 }

@@ -8,7 +8,7 @@
     "name": "Bedrock Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BedrockItems"
     },
     "toolType": "Axe",
     "harvestLevel": 2,

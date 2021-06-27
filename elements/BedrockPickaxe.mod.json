@@ -8,10 +8,10 @@
     "name": "Bedrock Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BedrockItems"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 10,
+    "harvestLevel": 100,
     "efficiency": 20.0,
     "attackSpeed": 1.6,
     "enchantability": 25,

@@ -30,7 +30,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -41,6 +40,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.randommod.itemgroup.BedrockItemsItemGroup;
 import net.mcreator.randommod.RandommodModElements;
 
 import java.util.Random;
@@ -52,7 +52,7 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 	@ObjectHolder("randommod:compressed_cobblestone")
 	public static final Block block = null;
 	public CompressedCobblestoneBlock(RandommodModElements instance) {
-		super(instance, 2);
+		super(instance, 1);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -61,7 +61,7 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(BedrockItemsItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -71,8 +71,9 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 100f).setLightLevel(s -> 5).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.4f).jumpFactor(1.1f).notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 100f).setLightLevel(s -> 5)
+					.harvestLevel(100).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.4f).jumpFactor(1.1f).notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("compressed_cobblestone");
 		}
 

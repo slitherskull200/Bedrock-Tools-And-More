@@ -6,11 +6,11 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.randommod.itemgroup.BedrockItemsItemGroup;
 import net.mcreator.randommod.RandommodModElements;
 
 @RandommodModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class BedrockSwordItem extends RandommodModElements.ModElement {
 	@ObjectHolder("randommod:bedrock_sword")
 	public static final Item block = null;
 	public BedrockSwordItem(RandommodModElements instance) {
-		super(instance, 22);
+		super(instance, 6);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class BedrockSwordItem extends RandommodModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 118f;
+				return 48f;
 			}
 
 			public int getHarvestLevel() {
@@ -47,7 +47,7 @@ public class BedrockSwordItem extends RandommodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(BedrockSwordItem.block, (int) (1)), new ItemStack(Blocks.BEDROCK, (int) (1)));
 			}
-		}, 3, -1f, new Item.Properties().group(ItemGroup.COMBAT).isImmuneToFire()) {
+		}, 3, -2.3f, new Item.Properties().group(BedrockItemsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("bedrock_sword"));
 	}
 }

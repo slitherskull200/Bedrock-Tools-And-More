@@ -8,7 +8,7 @@
     "name": "Bedrock Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BedrockItems"
     },
     "toolType": "Hoe",
     "harvestLevel": 2,

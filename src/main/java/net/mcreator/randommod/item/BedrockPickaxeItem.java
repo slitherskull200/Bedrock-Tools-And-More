@@ -6,11 +6,11 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.randommod.itemgroup.BedrockItemsItemGroup;
 import net.mcreator.randommod.RandommodModElements;
 
 @RandommodModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class BedrockPickaxeItem extends RandommodModElements.ModElement {
 	@ObjectHolder("randommod:bedrock_pickaxe")
 	public static final Item block = null;
 	public BedrockPickaxeItem(RandommodModElements instance) {
-		super(instance, 20);
+		super(instance, 4);
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class BedrockPickaxeItem extends RandommodModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 10;
+				return 100;
 			}
 
 			public int getEnchantability() {
@@ -47,7 +47,7 @@ public class BedrockPickaxeItem extends RandommodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Blocks.BEDROCK, (int) (1)), new ItemStack(BedrockPickaxeItem.block, (int) (1)));
 			}
-		}, 1, -2.4f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+		}, 1, -2.4f, new Item.Properties().group(BedrockItemsItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("bedrock_pickaxe"));
 	}
 }
