@@ -77,9 +77,9 @@
     "luminance": 5,
     "unbreakable": false,
     "breakHarvestLevel": 5,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CRIT"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 1.9,
@@ -106,9 +106,9 @@
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [],
-    "frequencyPerChunks": 12,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 26,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 10
+    "maxGenerateHeight": 30
   }
 }
