@@ -71,8 +71,8 @@ public class CompressedCobblestoneBlock extends RandommodModElements.ModElement 
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(10f, 100f).setLightLevel(s -> 5)
-					.harvestLevel(100).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.4f).jumpFactor(1.1f).notSolid()
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 9999999f).setLightLevel(s -> 5)
+					.harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool().speedFactor(1.4f).jumpFactor(1.1f).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("compressed_cobblestone");
 		}

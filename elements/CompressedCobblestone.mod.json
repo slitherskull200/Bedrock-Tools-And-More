@@ -34,8 +34,8 @@
     ],
     "name": "Compressed Cobblestone",
     "specialInfo": [],
-    "hardness": 10.0,
-    "resistance": 100.0,
+    "hardness": 15.0,
+    "resistance": 9999999.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -76,7 +76,7 @@
     },
     "luminance": 5,
     "unbreakable": false,
-    "breakHarvestLevel": 100,
+    "breakHarvestLevel": 5,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
