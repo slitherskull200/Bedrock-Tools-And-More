@@ -3,4 +3,5 @@ Bedrock Elytra (maby)
 Compressed Bedrock and Crafting Recipies for EVEN MORE op gear (maby)
 Bedrock Totem (when i figure out how to make custom totems) (maby)
 Bedrock Apples (taking into consideration how op it would be not like the mod is op enough)
+Backport to older minecraft versions (1.12.2 confirmed not yet confirmed for other versions though)
 I'll Add Some More Things When I Think Of It
